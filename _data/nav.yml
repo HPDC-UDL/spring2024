@@ -1,0 +1,13 @@
+items:
+- url: /
+  name: Home
+  icon_class: fa fa-home fa-lg
+
+- url: /lectures/
+  name: Lectures
+  icon_class: fas fa-book-reader
+
+- url: /assignments/
+  name: Assignments
+  icon_class: fas fa-tasks
+

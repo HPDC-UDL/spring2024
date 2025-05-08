@@ -1,0 +1,20 @@
+
+    {% if include.lecture.links %}
+    {% for link in include.lecture.links %}
+    {% if link.name != "code" %}
+    [<a title="Download {{ link.name }}" href="
+    {% if link.url contains '://' %}
+      {{ link.url }} 
+    {% else %}
+      {{ link.url | prepend: site.baseurl }} 
+    {% endif %}">{{ link.name }}</a>]
+    {% else %}
+    [ <i class="fab fa-github"></i>  <a title="Download {{ link.name }}" href="
+    {% if link.url contains '://' %}
+      {{ link.url }} 
+    {% else %}
+      {{ link.url | prepend: site.baseurl }} 
+    {% endif %}">{{ link.name }}</a>]
+    {% endif %}
+    {% endfor %}
+    {% endif %}

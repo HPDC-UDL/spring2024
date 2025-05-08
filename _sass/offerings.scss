@@ -1,0 +1,56 @@
+#offerings {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  font-family: "Georgia", serif;
+  max-width: 700px;
+}
+
+.offeringurl {
+  padding: 1.5rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: box-shadow 0.2s, background 0.3s;
+  background-color: #fff;
+}
+
+.offeringurl:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background-color: #f9f9f9;
+}
+
+.offeringurl a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.offeringtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #003366;
+  margin-bottom: 0.3rem;
+}
+
+.offeringdetails {
+  font-size: 1rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.offeringlanguage {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.offeringlanguage img {
+  height: 1em;
+  margin-right: 0.4em;
+  border-radius: 2px;
+}

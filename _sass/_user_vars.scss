@@ -1,0 +1,31 @@
+@use 'sass:color';
+
+$primary-color:  #2A3B6F;
+$accent-color: #830051;
+$title-color: #b95050;
+$header-color: #B8E0F9;
+$header-text-color: #1E2A4A;
+$header-background-opacity: 0.4;
+$header-background-invert: 100%;
+
+$header-background-invert: 0%;
+
+$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+$base-font-size:   .95em;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      $primary-color;
+$grey-color:       #828282;
+$grey-color-light: color.adjust($grey-color, $lightness: 40%);
+$grey-color-dark:  color.adjust($grey-color, $lightness: -25%);
+
+// Width of the content area
+$content-width: 950px;
+$on-palm: 600px;
+$on-laptop: 950px;
+
