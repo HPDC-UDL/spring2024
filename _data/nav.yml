@@ -11,3 +11,8 @@ items:
   name: Assignments
   icon_class: fas fa-tasks
 
+- url: https://hpdc-udl.github.io/
+  name: HPDC
+  icon_class: fas fa-globe
+  external: true
+
