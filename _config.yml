@@ -3,7 +3,7 @@ course_name: High-performance and Distributed Computing
 course_description: "The course on High-Performance and Distributed Computing for Big Data sets the basics for understanding and using advanced computing infraestructures to solve biomedical problems that use large amounts of data. This course is coordinated by Universitat Autònoma de Barcelona (UAB), in collaboration with Universitat de Lleida (UdL). The part coordinated by UdL explores the fundamental concepts, architectures, and applications of Cloud Computing and Big Data, with a focus on their implementation in real-world scenarios, particularly in the health domain. Students will gain hands-on experience with Amazon Web Services (AWS)."
 course_semester: "Spring 2024"
 
-baseurl: "/sp2024"
+baseurl: "/spring2024"
 url: "http://HPDC-UDL.github.io/"
 
 schoolname: "Escola Politècnica Superior (Universitat de Lleida)"
